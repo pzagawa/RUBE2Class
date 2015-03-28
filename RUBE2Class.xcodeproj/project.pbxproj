@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE007EE918B911CA000531CE /* JSONFixtureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE007EE818B911CA000531CE /* JSONFixtureObject.m */; };
+		AE007EEC18B94D95000531CE /* PZClassWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE007EEB18B94D95000531CE /* PZClassWriter.m */; };
 		AE0BD96918B2BE9000497F9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0BD96818B2BE9000497F9B /* Foundation.framework */; };
 		AE0BD96C18B2BE9000497F9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BD96B18B2BE9000497F9B /* main.m */; };
 		AE0BD97018B2BE9000497F9B /* RUBE2Class.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0BD96F18B2BE9000497F9B /* RUBE2Class.1 */; };
+		AE0BD97818B2BF3200497F9B /* RUBEReader.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0BD97718B2BF3200497F9B /* RUBEReader.m */; };
+		AE79B18518CC7299001BA4A1 /* JSONPropertyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE79B18418CC7299001BA4A1 /* JSONPropertyObject.m */; };
+		AE899A8618BD4B94007BD141 /* JSONJointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE899A8518BD4B94007BD141 /* JSONJointObject.m */; };
+		AE8B037418BA22E30001B27A /* JSONShapeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B037318BA22E30001B27A /* JSONShapeObject.m */; };
+		AE8B037718BA29B60001B27A /* JSONVerticesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B037618BA29B60001B27A /* JSONVerticesObject.m */; };
+		AED4FE8218B417C2003024B0 /* JSONBodyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AED4FE8118B417C2003024B0 /* JSONBodyObject.m */; };
+		AED4FE8518B41994003024B0 /* JSONVectorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AED4FE8418B41994003024B0 /* JSONVectorObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +35,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE007EE718B911CA000531CE /* JSONFixtureObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONFixtureObject.h; sourceTree = "<group>"; };
+		AE007EE818B911CA000531CE /* JSONFixtureObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONFixtureObject.m; sourceTree = "<group>"; };
+		AE007EEA18B94D95000531CE /* PZClassWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZClassWriter.h; sourceTree = "<group>"; };
+		AE007EEB18B94D95000531CE /* PZClassWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZClassWriter.m; sourceTree = "<group>"; };
+		AE007EED18B94E38000531CE /* JSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONObject.h; sourceTree = "<group>"; };
 		AE0BD96518B2BE8F00497F9B /* RUBE2Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RUBE2Class; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0BD96818B2BE9000497F9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE0BD96B18B2BE9000497F9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE0BD96E18B2BE9000497F9B /* RUBE2Class-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RUBE2Class-Prefix.pch"; sourceTree = "<group>"; };
 		AE0BD96F18B2BE9000497F9B /* RUBE2Class.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RUBE2Class.1; sourceTree = "<group>"; };
+		AE0BD97618B2BF3200497F9B /* RUBEReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBEReader.h; sourceTree = "<group>"; };
+		AE0BD97718B2BF3200497F9B /* RUBEReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBEReader.m; sourceTree = "<group>"; };
+		AE79B18318CC7299001BA4A1 /* JSONPropertyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPropertyObject.h; sourceTree = "<group>"; };
+		AE79B18418CC7299001BA4A1 /* JSONPropertyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONPropertyObject.m; sourceTree = "<group>"; };
+		AE899A8418BD4B94007BD141 /* JSONJointObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONJointObject.h; sourceTree = "<group>"; };
+		AE899A8518BD4B94007BD141 /* JSONJointObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONJointObject.m; sourceTree = "<group>"; };
+		AE8B037218BA22E30001B27A /* JSONShapeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONShapeObject.h; sourceTree = "<group>"; };
+		AE8B037318BA22E30001B27A /* JSONShapeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONShapeObject.m; sourceTree = "<group>"; };
+		AE8B037518BA29B60001B27A /* JSONVerticesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONVerticesObject.h; sourceTree = "<group>"; };
+		AE8B037618BA29B60001B27A /* JSONVerticesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONVerticesObject.m; sourceTree = "<group>"; };
+		AEC1726E18BEAB55004B52FC /* ObjectIndexMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectIndexMapper.h; sourceTree = "<group>"; };
+		AED4FE8018B417C2003024B0 /* JSONBodyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONBodyObject.h; sourceTree = "<group>"; };
+		AED4FE8118B417C2003024B0 /* JSONBodyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONBodyObject.m; sourceTree = "<group>"; };
+		AED4FE8318B41994003024B0 /* JSONVectorObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONVectorObject.h; sourceTree = "<group>"; };
+		AED4FE8418B41994003024B0 /* JSONVectorObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONVectorObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +102,26 @@
 		AE0BD96A18B2BE9000497F9B /* RUBE2Class */ = {
 			isa = PBXGroup;
 			children = (
+				AEC1726E18BEAB55004B52FC /* ObjectIndexMapper.h */,
+				AE007EED18B94E38000531CE /* JSONObject.h */,
+				AE8B037218BA22E30001B27A /* JSONShapeObject.h */,
+				AE8B037318BA22E30001B27A /* JSONShapeObject.m */,
+				AE007EE718B911CA000531CE /* JSONFixtureObject.h */,
+				AE007EE818B911CA000531CE /* JSONFixtureObject.m */,
+				AED4FE8318B41994003024B0 /* JSONVectorObject.h */,
+				AED4FE8418B41994003024B0 /* JSONVectorObject.m */,
+				AE8B037518BA29B60001B27A /* JSONVerticesObject.h */,
+				AE8B037618BA29B60001B27A /* JSONVerticesObject.m */,
+				AE899A8418BD4B94007BD141 /* JSONJointObject.h */,
+				AE899A8518BD4B94007BD141 /* JSONJointObject.m */,
+				AED4FE8018B417C2003024B0 /* JSONBodyObject.h */,
+				AED4FE8118B417C2003024B0 /* JSONBodyObject.m */,
+				AE79B18318CC7299001BA4A1 /* JSONPropertyObject.h */,
+				AE79B18418CC7299001BA4A1 /* JSONPropertyObject.m */,
+				AE007EEA18B94D95000531CE /* PZClassWriter.h */,
+				AE007EEB18B94D95000531CE /* PZClassWriter.m */,
+				AE0BD97618B2BF3200497F9B /* RUBEReader.h */,
+				AE0BD97718B2BF3200497F9B /* RUBEReader.m */,
 				AE0BD96B18B2BE9000497F9B /* main.m */,
 				AE0BD96F18B2BE9000497F9B /* RUBE2Class.1 */,
 				AE0BD96D18B2BE9000497F9B /* Supporting Files */,
@@ -139,6 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0BD97818B2BF3200497F9B /* RUBEReader.m in Sources */,
+				AE79B18518CC7299001BA4A1 /* JSONPropertyObject.m in Sources */,
+				AED4FE8518B41994003024B0 /* JSONVectorObject.m in Sources */,
+				AE007EE918B911CA000531CE /* JSONFixtureObject.m in Sources */,
+				AE8B037718BA29B60001B27A /* JSONVerticesObject.m in Sources */,
+				AE899A8618BD4B94007BD141 /* JSONJointObject.m in Sources */,
+				AED4FE8218B417C2003024B0 /* JSONBodyObject.m in Sources */,
+				AE007EEC18B94D95000531CE /* PZClassWriter.m in Sources */,
+				AE8B037418BA22E30001B27A /* JSONShapeObject.m in Sources */,
 				AE0BD96C18B2BE9000497F9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +309,7 @@
 				AE0BD97518B2BE9000497F9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
